@@ -1,4 +1,6 @@
-class ProductBalance {
+import 'package:equatable/equatable.dart';
+
+class ProductBalance extends Equatable {
   final String type;
   final String standardWarehous;
   final String productCode;
@@ -13,6 +15,16 @@ class ProductBalance {
       this.unitMeasure,
       this.description,
       this.warehouses});
+
+  @override
+  List<Object> get props => [
+        type,
+        standardWarehous,
+        productCode,
+        unitMeasure,
+        description,
+        warehouses
+      ];
 }
 
 class Warehouses {
