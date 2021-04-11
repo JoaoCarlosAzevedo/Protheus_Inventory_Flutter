@@ -1,10 +1,10 @@
 class ProductBalance {
-  String type;
-  String standardWarehous;
-  String productCode;
-  String unitMeasure;
-  String description;
-  List<Warehouses> warehouses;
+  final String type;
+  final String standardWarehous;
+  final String productCode;
+  final String unitMeasure;
+  final String description;
+  final List<Warehouses> warehouses;
 
   ProductBalance(
       {this.type,
@@ -16,16 +16,16 @@ class ProductBalance {
 }
 
 class Warehouses {
-  String warehouse;
-  int warehouseBalance;
-  List<Lots> lots;
+  final String warehouse;
+  final double warehouseBalance;
+  final List<Lots> lots;
 
   Warehouses({this.warehouse, this.warehouseBalance, this.lots});
 }
 
 class Lots {
-  String lotnumber;
-  int lotBalance;
+  final String lotnumber;
+  final double lotBalance;
 
   Lots({this.lotnumber, this.lotBalance});
 }

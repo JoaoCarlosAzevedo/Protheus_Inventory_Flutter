@@ -1,11 +1,11 @@
 class Product {
-  String type;
-  String standardWarehous;
-  String productCode;
-  String unitMeasure;
-  String description;
+  final String type;
+  final String standardWarehous;
+  final String productCode;
+  final String unitMeasure;
+  final String description;
 
-  product(
+  Product(
       {this.type,
       this.standardWarehous,
       this.productCode,

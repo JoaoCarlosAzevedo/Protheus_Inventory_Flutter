@@ -1,10 +1,10 @@
 class Transaction {
-  String tm;
-  String product;
-  String docid;
-  double amount;
-  String lotnumber;
-  String warehouse;
+  final String tm;
+  final String product;
+  final String docid;
+  final double amount;
+  final String lotnumber;
+  final String warehouse;
 
   Transaction(
       {this.tm,
