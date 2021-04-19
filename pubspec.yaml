@@ -25,13 +25,13 @@ dependencies:
     sdk: flutter
 
   # Value quality
-  equatable: ^2.0.0
+  equatable: ^1.2.0
 
   # Functional Programming
   dartz: ^0.9.2
 
   # State Management
-  flutter_bloc: ^7.0.0
+  flutter_bloc: ^6.0.0
 
   # Remote API
   http: ^0.13.1
