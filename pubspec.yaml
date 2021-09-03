@@ -40,6 +40,9 @@ dependencies:
   # Local Cache
   shared_preferences: ^2.0.5
 
+  # Tests
+  mocktail: ^0.1.4
+
 
 
 
